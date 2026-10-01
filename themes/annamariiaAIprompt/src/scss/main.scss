@@ -1,0 +1,11 @@
+// 1. Variabelen overschrijven
+$primary: #0d9488;
+$body-bg: #f8fafc;
+
+// 2. Bootstrap importeren
+@import "bootstrap/scss/bootstrap";
+
+// 3. Eigen CSS
+body {
+    padding-top: 1rem;
+}

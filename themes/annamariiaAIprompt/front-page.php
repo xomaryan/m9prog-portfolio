@@ -3,7 +3,6 @@
 $status_message = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_contact'])) {
-
     $naam    = sanitize_text_field($_POST['name']);
     $email   = sanitize_email($_POST['email']);
     $bericht = sanitize_textarea_field($_POST['message']);

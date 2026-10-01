@@ -1,0 +1,41 @@
+{
+  "name": "annamariiaaiprompt",
+  "version": "1.0.0",
+  "description": "WordPress theme Example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xomaryan/m9prog-portfolio.git"
+  },
+  "scripts": {
+    "webpack": "webpack",
+    "dev": "webpack build --mode=development",
+    "watch": "webpack watch --mode=development",
+    "prod": "webpack build --mode=production --stats=errors-only"
+  },
+  "keywords": [
+    "WordPress",
+    "Website"
+  ],
+  "author": "Anna-Maria",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "src/js/app.js",
+
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.3.8",
+    "copy-webpack-plugin": "14.0.0"
+  },
+
+  "devDependencies": {
+    "css-loader": "^7.1.5",
+    "css-minimizer-webpack-plugin": "^8.0.0",
+    "mini-css-extract-plugin": "^2.10.2",
+    "sass": "^1.103.1",
+    "sass-loader": "^17.0.1",
+    "webpack": "^5.110.3",
+    "webpack-cli": "^7.2.3",
+    "webpack-remove-empty-scripts": "^1.1.1"
+  }
+
+}
