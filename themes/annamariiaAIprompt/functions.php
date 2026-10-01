@@ -2,7 +2,7 @@
 
 function stage_portfolio_setup() {
 
-    // Laat WordPress de <title> tag beheren.
+    // Hier heb ik add_thema_support() toegevoegd.
     add_theme_support('title-tag');
 
     // Hier registreer ik naviegatiemenu.
