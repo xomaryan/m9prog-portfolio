@@ -13,7 +13,6 @@
         <a href="<?php echo esc_url(home_url('/')); ?>" class="logo">
             <?php bloginfo('name'); ?>
         </a>
-
         <nav class="main-nav" aria-label="Hoofdnavigatie">
             <?php
             wp_nav_menu(array(
