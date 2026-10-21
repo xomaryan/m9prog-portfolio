@@ -14,7 +14,6 @@
             <?php bloginfo('name'); ?>
         </a>
 
-        // Hier heb ik de dynamische navigate gemaakt
         <nav class="main-nav" aria-label="Hoofdnavigatie">
             <?php
             wp_nav_menu(array(
