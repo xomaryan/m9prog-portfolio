@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head(); ?>
 </head>
@@ -10,16 +10,18 @@
 
 <header class="site-header">
     <div class="container">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="logo">
-            <?php bloginfo('name'); ?>
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo">
+            Anna-Maria Borosovska
         </a>
+
+        <?php /* Dynamische navigatie */ ?>
         <nav class="main-nav" aria-label="Hoofdnavigatie">
             <?php
-            wp_nav_menu(array(
+            wp_nav_menu( array(
                 'theme_location' => 'primary-menu',
                 'container'      => false,
                 'fallback_cb'    => false,
-            ));
+            ) );
             ?>
         </nav>
     </div>
